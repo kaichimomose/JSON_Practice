@@ -12,6 +12,9 @@
 		BFB68A021FA3BC24006C329C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB68A001FA3BC24006C329C /* Main.storyboard */; };
 		BFB68A041FA3BC24006C329C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB68A031FA3BC24006C329C /* Assets.xcassets */; };
 		BFB68A071FA3BC24006C329C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB68A051FA3BC24006C329C /* LaunchScreen.storyboard */; };
+		BFB68A111FA3BD3D006C329C /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB68A101FA3BD3D006C329C /* Root.swift */; };
+		BFB68A131FA3BD75006C329C /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB68A121FA3BD75006C329C /* Container.swift */; };
+		BFB68A151FA3BFF5006C329C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB68A141FA3BFF5006C329C /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BFB68A031FA3BC24006C329C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB68A061FA3BC24006C329C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB68A081FA3BC24006C329C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB68A101FA3BD3D006C329C /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		BFB68A121FA3BD75006C329C /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		BFB68A141FA3BFF5006C329C /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				BFB689FC1FA3BC24006C329C /* AppDelegate.swift */,
 				BFB689FE1FA3BC24006C329C /* ViewController.swift */,
+				BFB68A101FA3BD3D006C329C /* Root.swift */,
+				BFB68A121FA3BD75006C329C /* Container.swift */,
+				BFB68A141FA3BFF5006C329C /* Networking.swift */,
 				BFB68A001FA3BC24006C329C /* Main.storyboard */,
 				BFB68A031FA3BC24006C329C /* Assets.xcassets */,
 				BFB68A051FA3BC24006C329C /* LaunchScreen.storyboard */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB689FF1FA3BC24006C329C /* ViewController.swift in Sources */,
+				BFB68A151FA3BFF5006C329C /* Networking.swift in Sources */,
+				BFB68A131FA3BD75006C329C /* Container.swift in Sources */,
 				BFB689FD1FA3BC24006C329C /* AppDelegate.swift in Sources */,
+				BFB68A111FA3BD3D006C329C /* Root.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

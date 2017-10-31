@@ -9,9 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let networking = Networking()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        /* JOKE API
+        networking.getJoke() { (jokes: [Joke]) in
+            print(jokes)
+        }
+         */
+        
+        /* Anime API
+        networking.getAnime(id: "1") { (anime: Anime) in
+            print(anime)
+        }
+         */
+        
+        // Airbnb API
+        networking.getResults() { (results: [Result]) in
+            print(results)
+        }
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +39,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    
 }
 
